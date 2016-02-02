@@ -1,0 +1,46 @@
+@import url("whitespace-reset.css");
+
+
+body {
+  background: #dcedc1;
+  
+}
+
+main {
+  width: 800px;
+  background: #ffffff;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#games {
+  float:right ;
+  width: 70%;
+}
+
+#system {
+  float: left;
+  width: 20%;
+}
+
+h1 {
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+#games li {
+  margin-bottom: 15px;
+}
+
+#games li + li {
+  border-top: 1px solid black;
+}
+
+#games li:hover {
+  background: pink;
+}
+
+input[type="checkbox"] {
+  padding-right: 5px;
+}
